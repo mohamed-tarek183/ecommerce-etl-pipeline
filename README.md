@@ -1,26 +1,7 @@
-eCommerce ETL Pipeline
-This project implements an ETL (Extract, Transform, Load) pipeline for an eCommerce dataset, processing raw data into a structured Data Warehouse (DWH). The pipeline is orchestrated using Apache Airflow and containerized with Docker, ensuring a reproducible and scalable environment.
 
 
 
-
-💻 Technologies Used
-Python: The primary language for all scripting, including the ETL logic.
-
-SQL: Used extensively for data transformations within the staging and data warehouse environments.
-
-Docker: Used to containerize the services (Airflow, PostgreSQL) and manage the project's environment.
-
-Apache Airflow: The workflow management system that schedules and orchestrates the ETL tasks.
-
-PostgreSQL: Serves as both the staging database and the final data warehouse.
-
-Metabase: An open-source business intelligence tool used to create a dashboard for data visualization and analysis.
-
-
-
-
-eCommerce ETL Pipeline
+##eCommerce ETL Pipeline
 This project implements an ETL (Extract, Transform, Load) pipeline for an eCommerce dataset, processing raw data into a structured Data Warehouse (DWH). The pipeline is orchestrated using Apache Airflow and containerized with Docker, ensuring a reproducible and scalable environment.
 
 💻 Technologies Used
