@@ -6,7 +6,7 @@ This project implements an ETL (Extract, Transform, Load) pipeline for an eComme
 ![Architecture Diagram](./diagrams/Pipeline_diagram.drawio.png)
 
 ## Airflow Dag
-![Airflow Dag](./diagrams/Pipeline_diagram.drawio.png)
+![Airflow Dag](./diagrams/DAG.png)
 
 ## 💻 Technologies Used
 
@@ -38,6 +38,8 @@ The transformation step, executed primarily with SQL queries, converts the stage
 ### Dashboarding
 
 A dashboard was created using Metabase, connected to the PostgreSQL data warehouse. This dashboard provides key insights into sales performance, product trends, and other business metrics, allowing for easy data exploration.
+
+![Metabase Dashboard](./diagrams/metabase.png)
 
 ## 🚀 Setup & Execution
 
