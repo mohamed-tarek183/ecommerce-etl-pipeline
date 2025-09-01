@@ -1,0 +1,7 @@
+{"timestamp":"2025-08-27T23:29:53.790776","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-27T23:29:53.791088","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/e_com_ETL.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-27T23:29:53.832763","level":"info","event":"Executing: CREATE SCHEMA IF NOT EXISTS core;","logger":"airflow.task.operators.airflow.providers.common.sql.operators.sql.SQLExecuteQueryOperator"}
+{"timestamp":"2025-08-27T23:29:53.833881","level":"warning","event":"Using Connection.get_connection_from_secrets from `airflow.models` is deprecated.Please use `from airflow.sdk import Connection` instead","category":"DeprecationWarning","filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/connection.py","lineno":471,"logger":"py.warnings"}
+{"timestamp":"2025-08-27T23:29:53.838365","level":"info","event":"Connection Retrieved 'DWH'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-08-27T23:29:53.842248","level":"info","event":"Connection Retrieved 'DWH'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-08-27T23:29:53.844772","level":"info","event":"Running statement: CREATE SCHEMA IF NOT EXISTS core;, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}

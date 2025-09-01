@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-27T23:24:24.332867","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-27T23:24:24.333511","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/e_com_ETL.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-27T23:24:24.415115","level":"warning","event":"Using Connection.get_connection_from_secrets from `airflow.models` is deprecated.Please use `from airflow.sdk import Connection` instead","category":"DeprecationWarning","filename":"/home/airflow/.local/lib/python3.12/site-packages/airflow/models/connection.py","lineno":471,"logger":"py.warnings"}
+{"timestamp":"2025-08-27T23:24:24.423551","level":"info","event":"Connection Retrieved 'Source'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-08-27T23:24:24.427221","level":"info","event":"Running statement: \n                SELECT *\n                FROM public.products;\n            , parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-08-27T23:24:24.428680","level":"info","event":"Rows affected: 699","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-08-27T23:24:24.437006","level":"info","event":"Connection Retrieved 'DWH'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-08-27T23:24:24.440178","level":"info","event":"Running statement: TRUNCATE TABLE staging.products;, parameters: None","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-08-27T23:24:24.468115","level":"info","event":"Loaded 699 rows into staging.products so far","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-08-27T23:24:24.468288","level":"info","event":"Done loading. Loaded a total of 699 rows into staging.products","logger":"airflow.task.hooks.airflow.providers.postgres.hooks.postgres.PostgresHook"}
+{"timestamp":"2025-08-27T23:24:24.468465","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
